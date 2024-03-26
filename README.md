@@ -17,6 +17,7 @@ The rules for each CFET cell library are outlined below:
 
 * Rules for (1) and (2):
 ```
+P-FET on N-FET
 Minimum area rule (MAR) = 1
 End-of-line (EOL) = 1
 Via rule (VR) = 0
@@ -28,6 +29,7 @@ Minimum pin opening (MPO) = 1
 
 * Rules for (3)
 ```
+N-FET on P-FET
 Minimum area rule (MAR) = 1
 End-of-line (EOL) = 2
 Via rule (VR) = 1
