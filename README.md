@@ -24,7 +24,6 @@ Via rule (VR) = 0
 Parallel run length (PRL) = 1
 Step height rule (SHR) = 2
 Minimum pin length (MPL) = 1(for (1)), 2(for (2))
-Minimum pin opening (MPO) = 1
 ```
 
 * Rules for (3)
@@ -36,7 +35,6 @@ Via rule (VR) = 1
 Parallel run length (PRL) = 1
 Step height rule (SHR) = 2
 Minimum pin length (MPL) = 2
-Minimum pin opening (MPO) = 1
 ```
 
 The following 30 cells have been generated:
