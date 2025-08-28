@@ -10,7 +10,7 @@ For more information, refer to the paper:
 * *Suwan Kim and Taewhan Kim, Optimal Transistor Folding and Placement for Synthesizing Standard Cells of Complementary FET Technology, IEEE/ACM Design Automation Conference (DAC), Jun. 2024.*
 
 ## Architecture and Standard Cell Information
-We have created four sets of CFET cell libraries: (1) 2-track multi-row, (2) 3-track single-row, (3) 4-track single-row.
+We have created five sets of CFET cell libraries: (1) 2-track multi-row, (2) 3-track single-row, (3) 4-track single-row, (4) 3-track multi-row, and (5) 4-track multi-row.
 
 The rules for each CFET cell library are outlined below:
 
@@ -36,7 +36,31 @@ Step height rule (SHR) = 2
 Minimum pin length (MPL) = 2
 ```
 
-For (1), (2), and (3), the following 35 cells have been generated:
+* Rules for (4):
+```
+Bidrectional M1 routing (without no BEOL DRC violations)
+P-FET on N-FET
+Minimum area rule (MAR) = 1
+End-of-line (EOL) = 2
+Via rule (VR) = 1
+Parallel run length (PRL) = 1
+Step height rule (SHR) = 2
+Minimum pin length (MPL) = 1
+```
+
+* Rules for (5):
+```
+Bidrectional M1 routing (without no BEOL DRC violations)
+P-FET on N-FET
+Minimum area rule (MAR) = 1
+End-of-line (EOL) = 2
+Via rule (VR) = 1
+Parallel run length (PRL) = 1
+Step height rule (SHR) = 2
+Minimum pin length (MPL) = 2
+```
+
+The following 35 cells have been generated across all sets of CFET cell libraries:
 ```
 AND2x2 AND3x1 AND3x2 AOI21x1 AOI22x1 
 BUFx2 BUFx3 BUFx4 BUFx8
