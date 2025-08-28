@@ -36,7 +36,7 @@ Step height rule (SHR) = 2
 Minimum pin length (MPL) = 2
 ```
 
-* Rules for (4):
+* Rules for (4) and (5):
 ```
 Bidrectional M1 routing (without no BEOL DRC violations)
 P-FET on N-FET
@@ -45,19 +45,7 @@ End-of-line (EOL) = 2
 Via rule (VR) = 1
 Parallel run length (PRL) = 1
 Step height rule (SHR) = 2
-Minimum pin length (MPL) = 1
-```
-
-* Rules for (5):
-```
-Bidrectional M1 routing (without no BEOL DRC violations)
-P-FET on N-FET
-Minimum area rule (MAR) = 1
-End-of-line (EOL) = 2
-Via rule (VR) = 1
-Parallel run length (PRL) = 1
-Step height rule (SHR) = 2
-Minimum pin length (MPL) = 2
+Minimum pin length (MPL) = 1(for (4)), 2(for (5))
 ```
 
 The following 35 cells have been generated across all sets of CFET cell libraries:
